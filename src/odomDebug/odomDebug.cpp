@@ -157,7 +157,6 @@ OdomDebug::OdomDebug(lv_obj_t* parent, lv_color_t mainColor)
   ledStyle.body.border.width = 2;
   ledStyle.body.border.opa = LV_OPA_100;
   lv_obj_set_style(led, &ledStyle);
-  
 
   /**
    * Robot line
@@ -308,4 +307,3 @@ lv_res_t OdomDebug::resetAction(lv_obj_t* btn) {
   else std::cout << "OdomDebug: No reset action callback provided";
   return LV_RES_OK;
 }
-

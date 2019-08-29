@@ -56,7 +56,6 @@ public:
     friend class OdomDebug;
   };
 
-
   /**
    * Constructs the OdomDebug object.
    * @param parent the lvgl parent, color is inherited
